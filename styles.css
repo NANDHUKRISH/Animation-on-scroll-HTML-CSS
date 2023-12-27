@@ -29,12 +29,6 @@ p{  position: relative;
     font-family: 600;
     text-align: center;
 }
-/* .sec-1{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    flex-direction: row;
-} */
 .sec-2 p{
     color:#0f0;
 }
@@ -126,9 +120,22 @@ section.show-animate .animate{
 }
 @media (max-width: 768px){
     h1{ 
-        font-size:50px;
+        font-size:40px;
     }
     p{  
-        font-size: 30px;
+        font-size: 28px;
+    }
+    .sec-5 .images img{
+        width:200px;
+        height: 150px;
+    }
+}
+@media (max-width:500px){
+    h1{ 
+        font-size:30px;
+    }
+    .sec-5 .images img{
+        width:150px;
+        height: 100px;
     }
 }
